@@ -1,0 +1,24 @@
+An image is identical to a thousand words. Each image pulls
+the watcher in, to an alternate time and spot making him experience a
+heap of feelings. They fill in as a path through a world of fond memories.
+However, consider the possibility that these photographs were harmed
+or have undesirable objects. To re-establish these photographs by eliminating damages such as scratches, haziness and overlaid content or illustrations, we can utilize a procedure called Image Inpainting. Image
+inpainting is the procedure of reestablishing the harmed and missing
+pieces of a picture with the objective of introducing the picture as it was
+initially envisioned. The extent of our strategy ranges from expulsion of
+undesirable articles from the picture to reproducing the deteriorated and
+obscured out parts of the picture. Further, it could be utilized to improve
+quality of the pictures (for example, the ones capturing criminal activities and their perpetrators). In our paper, we present a profound deep
+learning procedure to accomplish the above objectives. A pix2pix Generative Adversarial Network is being utilized here with various encoders
+and decoders which extract the essential highlights of the picture and
+afterwards recreate it without any fuss.
+We present a pix2pix Generative Adversarial Network [2] with novel encoderdecoder layers for image inpainting. A pix2pix model as the name suggests, takes
+a pixel from the input image, manipulates it and converts it into an output pixel.
+It maps an input image to its output image and manipulates the pixel values of
+the input image as required by the end user. Our proposed model has multiplelayers of encoders and decoders. This forces the system to learn meaningful
+mappings from the input domain to the output domain, which in turn improves
+the learning of target distribution, all the while avoiding model collapse.
+Our contributions are summarized as follows:
+1. Our proposed Pix2Pix Generative Adversarial Network comprises of a global
+discriminator which computes the loss factor for the system as a whole.
+2. We use an Adam optimizer which provides faster convergence.
